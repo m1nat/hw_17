@@ -12,6 +12,42 @@
 
 // 'Task 3'
 
+
+
+// вариант 1
+
+// const users = [
+//    {
+//        name: 'Vitaliy',
+//        age: 29
+//    },
+//    {
+//        name: 'Petya',
+//        age: 17
+//    },
+//    {
+//        name: 'Senya',
+//        age: 26
+//    },
+//    {
+//        name: 'Arseniy',
+//        age: 20
+//    }
+//  ];
+
+// let result = propertyValue(users, 'name');
+// console.log(result);
+// function propertyValue(arr, key) {
+//    let arrFunc = arr;
+//    arrFunc.reduce( (acc, item, i, arr) =>{
+//        return acc, arr[i] = arr[i][key]
+//    }, [])
+//    return arrFunc
+//  }
+
+
+// вариант 2
+
 // let users = [
 //     {
 //         name: 'Kate',
@@ -34,7 +70,11 @@
 // let propertUsers = users.map( item => item.name)
 // console.log(propertUsers);
 
-//  'Task 4'
+
+
+
+
+// //  'Task 4'
 
 //  let arr = ["I", "will", "learn", "JavaScript", "in", "future"]
 // arr.reduce( (acc, item, i, arr) =>{
@@ -82,18 +122,5 @@
 //    btn_2.onclick = function() {
 //       result.innerHTML = sortArr
 //    }
-// }
-
-
-
-
-
-   
-
-
-
-
-
-
-
+// };
 
